@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculator <3 </h1>
+    <h4>This page is a simple calculator made with html, javascript, and css!</h5>
+    <input type="text" class="NumInput" id="num1">
+    <input type="text" class="NumInput" id="num2">
+    <br>    
+    <div id="buttons">
+        <button type="button" id="add" onclick="calcu('sum')">+</button>
+        <button type="button" id="subtract" onclick="calcu('subtraction')">-</button>
+        <button type="button" id="multi" onclick="calcu('product')">*</button>
+        <button type="button" id="div" onclick="calcu('quotient')">/</button>
+        <button type="button" id="modular" onclick="calcu('modular')" >%</button>
+    </div>
+    <p id="results">Results will be displayed here.</p>
+    <h3>Instructions:</h3>
+    <div class="instructions" id="add">"+" Adds a + b</div>
+    <div class="instructions" id="subtract">"-" Subtracts a - b</div>
+    <div class="instructions" id="product">"*" Multiplies a*b</div>
+    <div class="instructions"id="quotient">"/" Divides a/b</div>
+    <div class="instructions" id="modd">"%" Finds the modular of a%b</div>
+</body>
+</html>

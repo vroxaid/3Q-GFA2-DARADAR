@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    background-color: beige;
+}
+.NumInput {
+    width: 40px;
+}
+#buttons {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+h1 {
+    color: palevioletred;
+}
